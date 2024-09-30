@@ -9,16 +9,16 @@ Console.WriteLine("inserimento libri");
 bool continua= true;
 while (continua)
 {
-    Libro libro = new Libro();
+    Libro oggettolibro = new Libro();
 
     Console.WriteLine("inserisci titolo:");
-    string titolo = Console.ReadLine();
+    oggettolibro.Titolo = Console.ReadLine();
     Console.WriteLine("inserisci autore:");
-    string autore = Console.ReadLine();
+    oggettolibro.Autore = Console.ReadLine();
     Console.WriteLine("inserisci numero pagine:");
-    int pagine = int.Parse(Console.ReadLine());
+    oggettolibro.Pagine = int.Parse(Console.ReadLine());
     Console.WriteLine("inserisci prezzo:");
-    decimal prezzo = decimal.Parse(Console.ReadLine());
+    oggettolibro.Costo = decimal.Parse(Console.ReadLine());
 
     Console.WriteLine("inserisci se vuole continuare:");
         string risposta = Console.ReadLine();
