@@ -16,6 +16,8 @@ namespace Lavoro30092024_4Dinf
 
         public decimal Costo { get; set; }
 
+        private int Codicesegreto { get; }
 
+        
     }
 }
