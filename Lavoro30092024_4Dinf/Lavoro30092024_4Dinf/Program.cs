@@ -1,4 +1,6 @@
-﻿Console.WriteLine("gestione bliblioteca");
+﻿using Lavoro30092024_4Dinf;
+
+Console.WriteLine("gestione bliblioteca");
 
 Console.WriteLine("inserimento libri");
 
@@ -7,6 +9,7 @@ Console.WriteLine("inserimento libri");
 bool continua= true;
 while (continua)
 {
+    Libro 
     Console.WriteLine("inserisci titolo:");
     string titolo = Console.ReadLine();
     Console.WriteLine("inserisci autore:");
