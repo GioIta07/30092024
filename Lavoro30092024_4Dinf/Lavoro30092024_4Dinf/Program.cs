@@ -9,7 +9,8 @@ Console.WriteLine("inserimento libri");
 bool continua= true;
 while (continua)
 {
-    Libro 
+    Libro libro = new Libro();
+
     Console.WriteLine("inserisci titolo:");
     string titolo = Console.ReadLine();
     Console.WriteLine("inserisci autore:");
