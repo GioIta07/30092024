@@ -20,7 +20,7 @@ while (continua)
     Console.WriteLine("inserisci prezzo:");
     oggettolibro.Costo = decimal.Parse(Console.ReadLine());
 
-    Console.WriteLine("inserisci se vuole continuare:");
+    Console.WriteLine("inserisci se vuole continuare(S/N):");
         string risposta = Console.ReadLine();
     if (risposta == "n") continua= false ;
 }
