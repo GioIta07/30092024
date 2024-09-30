@@ -7,6 +7,7 @@ Console.WriteLine("inserimento libri");
 Libro[] biblioteca = new Libro[500];
 int indice = 0;
 bool continua= true;
+
 while (continua)
 {
     Libro oggettolibro = new Libro();
