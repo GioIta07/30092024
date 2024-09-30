@@ -21,5 +21,11 @@ namespace Lavoro30092024_4Dinf
         public Libro() { 
             Codicesegreto = 321;
         }
+
+        public decimal Costoamericano() {
+
+            decimal prezzoamericano = Costo * 0.89M;
+            return prezzoamericano;
+        }
     }
 }

@@ -24,6 +24,8 @@ while (continua)
     Console.WriteLine("inserisci prezzo:");
     oggettolibro.Costo = decimal.Parse(Console.ReadLine());
 
+    Console.WriteLine("prezo in dollari è:" + oggettolibro.Costoamericano());
+
     biblioteca[indice] = oggettolibro;
     indice++;
     Console.WriteLine("inserisci se vuole continuare(S/N):");
