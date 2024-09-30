@@ -18,6 +18,8 @@ namespace Lavoro30092024_4Dinf
 
         private int Codicesegreto { get; }
 
-        
+        public Libro() { 
+            Codicesegreto = 321;
+        }
     }
 }
