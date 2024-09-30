@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lavoro30092024_4Dinf
 {
-    internal class Libro
+    class Libro
     {
     }
 }
