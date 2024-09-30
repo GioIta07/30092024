@@ -8,5 +8,14 @@ namespace Lavoro30092024_4Dinf
 {
     class Libro
     {
+        public string Titolo { get; set;}
+
+        public string Autore { get; set; }
+
+        public int Pagine { get; set; }
+
+        public decimal Costo { get; set; }
+
+
     }
 }
